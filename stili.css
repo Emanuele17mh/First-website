@@ -1,0 +1,263 @@
+
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+    margin-top: -30px;
+
+}
+
+.header {
+    background: linear-gradient(to top, #000000 0%, #cc3300 87%);
+    height: 639px;
+   
+   
+}
+
+ul,li,a {
+    list-style: none;
+    text-decoration: none;
+    font-size: 30px;
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    color: white;
+}
+
+
+.links{
+    width: 1887px;
+    position: relative;
+    top: 10px;
+}
+
+li,a:hover{
+    transition: 0.8s;
+    color: black;
+}
+
+.logo{
+    height: 403px;
+    width: 399px;
+    position: relative;
+    bottom: 100px;
+}
+
+.header-text{
+    font-size: 65px;
+    text-align: center;
+    position: relative;
+    right: 397px;
+    bottom: 212px;
+}
+
+.header-text2{
+    font-size: 25px;
+    position: relative;
+    left: 203px;
+    bottom: 58px;
+}
+
+.button{
+    position: relative;
+    left: 9px;
+    bottom: 53px;
+    width: 69px;
+    cursor: pointer;
+}
+
+.button-text{
+    background-color: black;
+    color: red;
+    border-radius: 15px;
+    width: 91px;
+    height: 30px;
+    cursor: pointer;
+}
+
+
+.button:hover{
+    transform: scale(1.1);
+    transition: 0.7s;
+
+}
+
+.sushi1{
+    width: 596px;
+    height: 449px;
+    border: 2px solid black;
+    border-radius: 200px;
+}
+
+.header-image{
+    text-align-last: end;
+    position: relative;
+    bottom: 639px;
+    right: 202px;
+}
+
+/* Seconda sezione della pagina */
+
+.title{
+    color: black;
+    text-align: center;
+    font-size: 30px;
+}
+
+.title-text{
+
+    
+}
+
+
+.dishes.images{
+   
+    
+}
+
+.dish{
+    width: 244px;
+    height: 221px;
+    border-radius: 1000px;
+    margin: 40px;
+    position: relative;
+    left: 184px; 
+    cursor: pointer;
+    border-style: groove ;
+    
+    
+    
+}
+
+
+.dish:hover{
+    transform: scale(1.1);
+    transition: 0.7s;
+
+}
+.text{
+   
+    
+}
+
+.dishes{
+    color: black;
+    
+  
+}
+
+.dish-text1{
+    width: 312px;
+    position: relative;
+    left: 190px;
+    bottom: 34px;
+    text-align: justify;
+}
+
+.dish-text2{
+    width: 374px;
+    text-align: justify;
+    position: relative;
+    left: 600px;
+    bottom: 324px;
+}
+
+.dish-text3{
+    width: 367px;
+    position: relative;
+    left: 1043px;
+    bottom: 545px;
+    text-align: justify;
+}
+
+.dish-text4{
+    text-align: justify;
+    width: 339px;
+    position: relative;
+    left: 1466px;
+    bottom: 770px;
+}
+
+/* Terza sezione della pagina */
+
+.comment{
+    background: linear-gradient(to bottom, #000000 0%, #ff0000 132%);
+    text-align: center;
+    height: 234px;
+    position: relative;
+    bottom: 760px;
+}
+
+.comment-text{
+    position: relative;
+    top: 85px;
+    left: 568px;
+    color: white;
+    width: 679px;
+}
+
+.cta{
+    color: black;
+    border-radius: 95px;
+    width: 1156px;
+    height: 156px;
+    text-align: center;
+    font-size: 70px;
+    position: relative;
+    left: -122px;
+    bottom: 629px;
+}
+
+.cta-text{
+    position: relative;
+    top: 31px;
+    right: -259px;
+    width: 368px;
+}
+
+.button-text2{
+    background: linear-gradient(to bottom, #000000 0%, #ff0000 33%);
+    color: black;
+    border-radius: 73px;
+    width: 160px;
+    height: 74px;
+    cursor: pointer;
+    position: relative;
+    bottom: 204px;
+    left: 157px;
+    font-size: 30px;
+}
+
+/* Footer */
+
+.footer{
+    background: black;
+    color: white;
+    text-align: center;
+    height: 100px;
+}
+
+
+.footer-text{
+    position: relative;
+    top: 40px;
+    font-size: 25px;
+}
+
+
+.background{
+    height: 642px;
+    width: 831px;
+    position: absolute;
+    left: 1080px;
+    top: -84px;
+    border-radius: 1000px;
+    border-style: ridge;
+}
+
+
+.button-text2:hover{
+    transform: scale(1.1);
+    transition: 0.7s;
+}
